@@ -19,5 +19,13 @@ public class Main {
         System.out.println("Circle perimeter: " + circle.getPerimeter());
         System.out.println("Rectangle perimeter: " + rectangle.getPerimeter());
         System.out.println("Triangle perimeter: " + triangle.getPerimeter());
+
+        System.out.println();
+
+        double areaInCm = UnitConverter.metersToCentimeters(triangle.getArea());
+        System.out.println("Triangle area in cm: " + areaInCm);
+
+        boolean areasEqual = ShapeComparator.compareAreas(circle, rectangle);
+        System.out.println("Are areas equal? " + areasEqual);
     }
 }

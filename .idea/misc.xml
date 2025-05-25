@@ -9,7 +9,6 @@
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/GeometryUtils/pom.xml" />
         <option value="$PROJECT_DIR$/ThreeDimensionalShapes/pom.xml" />
       </set>
     </option>
