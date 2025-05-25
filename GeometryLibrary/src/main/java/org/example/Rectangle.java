@@ -16,4 +16,8 @@ public class Rectangle {
     public double getPerimeter() {
         return 2 * (width + height);
     }
+
+    public String getDescription() {
+        return "Rectangle with width = " + width + ", height = " + height;
+    }
 }

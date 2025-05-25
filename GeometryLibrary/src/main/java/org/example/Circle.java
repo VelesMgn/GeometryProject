@@ -14,4 +14,8 @@ public class Circle {
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
+
+    public String getDescription() {
+        return "Circle with radius = " + radius;
+    }
 }

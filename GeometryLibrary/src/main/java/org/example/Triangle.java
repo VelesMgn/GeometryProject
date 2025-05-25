@@ -19,4 +19,8 @@ public class Triangle {
     public double getPerimeter() {
         return sideA + sideB + sideC;
     }
+
+    public String getDescription() {
+        return "Triangle with sides = " + sideA + ", " + sideB + ", " + sideC;
+    }
 }
